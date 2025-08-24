@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = "https://tiktok.com";
+  const nggurl = "https://open.spotify.com";
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
