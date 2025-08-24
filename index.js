@@ -19,8 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl =
-    "https://simple-education.xyz/service/hvtrs8%2F-smuldalmuf.aoo%2F";
+  const nggurl = "https://www.youtubeunblocked.live";
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
