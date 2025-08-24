@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = "https://open.spotify.com";
+  const nggurl = "https://accounts.spotify.com/en/login";
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
