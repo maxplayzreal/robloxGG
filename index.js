@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = "https://www.easyfun.gg/cloud-games/roblox.html";
+  const nggurl = "https://tiktok.com";
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
