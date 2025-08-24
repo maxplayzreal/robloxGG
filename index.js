@@ -19,7 +19,8 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = "https://soundcloud.com";
+  const nggurl =
+    "https://simple-education.xyz/service/hvtrs8%2F-smuldalmuf.aoo%2F";
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
