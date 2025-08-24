@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 } else {
   const app = express();
 
-  const nggurl = "https://www.youtubeunblocked.live";
+  const nggurl = "https://www.autistici.org/burnedprojects/UNDERTALE";
 
   const proxy = httpProxy.createProxyServer({
     target: nggurl,
